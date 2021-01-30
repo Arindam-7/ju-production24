@@ -1,30 +1,21 @@
 import React from 'react';
 import '../App.css';
-import Button from './Button';
 import './HeroSection.css';
+import Button from './Button';
+import {Link} from 'react-scroll';
+import Cards from './Cards';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER
-        </Button>
-      </div>
+      <h3>Production & Industrial Engineering</h3>
+      <p>Batch of '24</p>
+      <p>Jadavpur University</p>
+      <button className="bookBtn">
+        <Link to="cardsID" spy={true} smooth={true}>
+          Books
+        </Link>
+      </button>
     </div>
   );
 }

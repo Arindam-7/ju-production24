@@ -6,7 +6,7 @@ import doge from '../images/doge.webp';
 
 function Cards() {
     return (
-        <div className="cards">
+        <div id="cardsID" className="cards">
             <h1>Here is some random texts.</h1>
             <div className="cards_container">
                 <div className="cards_wrapper">

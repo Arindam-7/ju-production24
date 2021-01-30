@@ -24,15 +24,25 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 22.5px;
     display: flex;
     align-items: center;
   }
-  
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+
+  .logo_image {
+    height: 50px;
+    width: 65px;
+    border-radius: 18px;
+    padding: 4px;
+    margin-right: 5px;
   }
+
+  @media only screen and (max-width: 1200px ) {
+    .navbar-logo {
+      font-size: 17px;
+    }
+  }
+
   
   .nav-menu {
     display: grid;
