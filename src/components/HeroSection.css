@@ -1,4 +1,6 @@
 
+
+  
   .hero-container {
     background: url('../images/jad3.jpg') center center/cover no-repeat;
     height: 95vh;
@@ -9,6 +11,69 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
+  }
+
+  /* neon effect */
+  .neon {
+    font-weight: 400;
+    color: #fdd;
+    text-shadow: 0 0 3px #f33,
+      0 0 3px #f33,
+      0 0 10px #f33;
+  }
+
+  /* animation */
+  .animation {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-weight: 600;
+    line-height: 85px;
+    letter-spacing: 10px;
+    
+    text-shadow: 10px 10px 25px rgb(180, 146, 44),
+    -10px 10px 25px rgb(185, 155, 54),
+    -10px -10px 25px rgb(197, 162, 46),
+    10px -10px 25px rgb(0, 0, 0);
+
+
+    animation: swing 3s linear infinite alternate;
+  }
+  
+  @keyframes swing {
+    from {
+      transform: rotate(2deg);
+    }
+    to {
+      transform: rotate(-2deg);
+    }
+  }
+
+  /* Jad Uni animation */
+  .jadUni {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(45deg, rgb(255, 255, 255), #fff, rgb(247, 247, 247));
+    background-repeat: no-repeat;
+    background-size: 40%;
+    animation: animate 4s linear infinite;
+    background-clip: text;
+    -webkit-text-fill-color: rgb(216, 8, 8);
+    text-shadow: 2px 2px 2px rgba(189, 162, 155, 0.9);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
   }
   
   .hero-container > h3 {

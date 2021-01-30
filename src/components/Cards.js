@@ -15,31 +15,31 @@ function Cards() {
                             src={pic}
                             text="Random again."
                             label="aww"
-                            path="/services"
+                            path="/"
                         />
                         <CardItem 
                             src={doge}
                             text="Random again(2)."
                             label="hey"
-                            path="/services"
+                            path="/"
                         />
                         <CardItem 
                             src={pic}
                             text="Random again(3)."
-                            label="oh"
-                            path="/services"
+                            label="F"
+                            path="/"
                         />
                         <CardItem 
                             src={doge}
                             text="Random again."
-                            label="aww"
-                            path="/services"
+                            label="Look away"
+                            path="/"
                         />
                         <CardItem 
                             src={pic}
                             text="Random again."
-                            label="aww"
-                            path="/services"
+                            label="empty"
+                            path="/"
                         />
                     </ul>
                 </div>
