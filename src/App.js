@@ -17,12 +17,11 @@ function App() {
   return (
     <>
         
-      <BrowserRouter basename = {process.env.PUBLIC_URL} >
+      <BrowserRouter>
         <Navbar />
-        <Home />
         <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/classes" exact component={Classes}/>
+          <Route path="/"  exact component={Home}/>
+          <Route path="/classes"  exact component={Classes}/>
           <Route path="/docs" exact component={Docs}/>
           <Route path="/classes/mathematics" exact component={Maths}/>
           <Route path="/classes/electrical" exact component={Electrical}/>
