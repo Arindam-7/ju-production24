@@ -10,7 +10,7 @@ import Electrical from './components/pages/Classes/Subjects/Electrical';
 import Electronics from './components/pages/Classes/Subjects/Electronics';
 import Programming from './components/pages/Classes/Subjects/Programming';
 import ED from './components/pages/Classes/Subjects/ED';
-
+import Arindam from './components/pages/Arindam';
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
           <Route path="/classes/electronics" exact component={Electronics}/>
           <Route path="/classes/programming" exact component={Programming}/>
           <Route path="/classes/ed" exact component={ED}/>
-
+          <Route path="/arindam" exact component={Arindam}/>
         </Switch>
       </BrowserRouter>
     </>

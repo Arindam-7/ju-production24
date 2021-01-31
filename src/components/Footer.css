@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
 .footer-container{
     background-color: #242424;
     padding: 4rem 0 2rem 0;
@@ -11,7 +14,16 @@
 .description {
     text-align: center;
     font-size: 17px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Merienda', cursive;
+}
+
+.myName {
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 8px;
+    font-family: fantasy;
 }
 
 .icons {

@@ -1,8 +1,6 @@
 import React from 'react';
 import './ClassCard.css';
 import CardItem from './ClassCardItem';
-import pic from '../../../images/pic.jpg'
-import doge from '../../../images/doge.webp';
 import maths from '../../../images/maths.jpg';
 import electrical from '../../../images/electrical.jpg';
 import electronics from '../../../images/electronics.jpg';

@@ -1,11 +1,15 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <div className="footer-container">
            <p className="description">
-               Made by Arindam Saha
+               Made by
+               <Link to="/arindam" className="myName">
+                 Arindam Saha
+               </Link>
            </p>
            <div class="icons">
             <a href="https://www.instagram.com/arindam.69/">
