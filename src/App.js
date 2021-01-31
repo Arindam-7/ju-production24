@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Docs from './components/pages/Docs';
-import Classes from './components/pages/Classes';
+import Classes from './components/pages/Classes/Classes';
 
 
 function App() {

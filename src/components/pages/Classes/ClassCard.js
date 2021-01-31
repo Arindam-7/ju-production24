@@ -1,10 +1,11 @@
 import React from 'react';
-import './Cards.css';
-import CardItem from './CardItem';
-import pic from '../images/pic.jpg';
-import doge from '../images/doge.webp';
+import './ClassCard.css';
+import CardItem from './ClassCardItem';
+import pic from '../../../images/pic.jpg'
+import doge from '../../../images/doge.webp';
 
-function Cards() {
+
+function ClassCard() {
     return (
         <div id="cardsID" className="cards">
             <h1>Here is some random texts.</h1>
@@ -43,4 +44,4 @@ function Cards() {
     )
 }
 
-export default Cards
+export default ClassCard
