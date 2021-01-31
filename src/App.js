@@ -17,7 +17,7 @@ function App() {
   return (
     <>
         
-      <BrowserRouter>
+      <BrowserRouter basename= {process.env.public_url} >
         <Navbar />
         <Home />
         <Switch>
