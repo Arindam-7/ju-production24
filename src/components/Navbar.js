@@ -20,7 +20,7 @@ function Navbar() {
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                     <img className="logo_image" alt="JU Logo" src={logo}></img>
-                        PIE 
+                        <span className="logo_text">PIE</span> 
                     </Link>
                     <div className="menu-icon"  onClick={handleClick}>
                         <i className={click ? 'fa fa-times': 'fa fa-bars'} />
