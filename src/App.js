@@ -16,7 +16,7 @@ import Arindam from './components/pages/Arindam';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         {Home}
         <Switch>
