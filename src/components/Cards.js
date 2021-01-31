@@ -1,38 +1,41 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import pic from '../images/pic.jpg';
-import doge from '../images/doge.webp';
+import maths from '../images/maths.jpg';
+import electrical from '../images/electrical.jpg';
+import electronics from '../images/electronics.jpg';
+import programming from '../images/programming.jpg';
+import ed from '../images/ed.jpg';
 
 function Cards() {
     return (
         <div id="cardsID" className="cards">
-            <h1>Here is some random texts.</h1>
+            <h1>Books <i className="fa fa-book"></i></h1>
             <div className="cards_container">
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem 
-                            src={pic}
+                            src={maths}
                             text="Mathematics"
                             path="/"
                         />
                         <CardItem 
-                            src={doge}
+                            src={electrical}
                             text="Basic Electrical Engineering"
                             path="/"
                         />
                         <CardItem 
-                            src={pic}
+                            src={electronics}
                             text="Basic Electronics"
                             path="/"
                         />
                         <CardItem 
-                            src={doge}
+                            src={programming}
                             text="Programming"
                             path="/"
                         />
                         <CardItem 
-                            src={pic}
+                            src={ed}
                             text="Engineering Drawing"
                             path="/"
                         />
