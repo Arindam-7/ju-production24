@@ -17,19 +17,19 @@ function App() {
   return (
     <>
         
-      <BrowserRouter basename= {process.env.public_url} >
+      <BrowserRouter>
         <Navbar />
         <Home />
         <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/classes" exact component={Classes}/>
-          <Route path="/docs" exact component={Docs}/>
-          <Route path="/classes/mathematics" exact component={Maths}/>
-          <Route path="/classes/electrical" exact component={Electrical}/>
-          <Route path="/classes/electronics" exact component={Electronics}/>
-          <Route path="/classes/programming" exact component={Programming}/>
-          <Route path="/classes/ed" exact component={ED}/>
-          <Route path="/arindam" exact component={Arindam}/>
+          <Route path={process.env.public_url + '/'} exact component={Home}/>
+          <Route path={process.env.public_url + '/classes'}  exact component={Classes}/>
+          <Route path={process.env.public_url + '/docs'}  exact component={Docs}/>
+          <Route path={process.env.public_url + '/classes/maths'}  exact component={Maths}/>
+          <Route path={process.env.public_url + '/classes/electrical'}  exact component={Electrical}/>
+          <Route path={process.env.public_url + '/classes/electronics'}  exact component={Electronics}/>
+          <Route path={process.env.public_url + '/classes/programming'}  exact component={Programming}/>
+          <Route path={process.env.public_url + '/classes/ed'}  exact component={ED}/>
+          <Route path={process.env.public_url + '/classes/arindam'}  exact component={Arindam}/>
         </Switch>
       </BrowserRouter>
     </>
