@@ -18,8 +18,8 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        {Home}
         <Switch>
-          {Home}
           <Route path="/" exact component={Home}/>
           <Route path="/classes" exact component={Classes}/>
           <Route path="/docs" exact component={Docs}/>
