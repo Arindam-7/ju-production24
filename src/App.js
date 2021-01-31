@@ -18,7 +18,7 @@ function App() {
     <>
         <Navbar />
         {Home}
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/classes" exact component={Classes}/>
