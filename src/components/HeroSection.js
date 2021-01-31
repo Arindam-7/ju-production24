@@ -1,9 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './HeroSection.css';
-import Button from './Button';
 import {Link} from 'react-scroll';
-import Cards from './Cards';
 
 function HeroSection() {
   return (

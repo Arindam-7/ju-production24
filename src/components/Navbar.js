@@ -1,12 +1,10 @@
-import React, { useEffect,useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Button from './Button';
 import './Navbar.css';
 import logo from '../images/logo.webp';
 
 function Navbar() {
     const [click,setClick] = useState(false);
-    const [button, setButton] = useState(true);
 
     const handleClick = () => {
         setClick(!click);
@@ -16,29 +14,12 @@ function Navbar() {
         setClick(false);
     };
 
-    const showButton = () => {
-        if(window.innerWidth <= 968){
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
-
-    useEffect(() => {
-        // This gets called after every render, by default
-        // to avoid the button to show up after first load on mobile (before resize)
-        showButton();
-      }, []);
-
-    // showing & hiding of button after resizing the window
-    window.addEventListener('resize', showButton);
-
     return (
         <>
             <div className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                    <img className="logo_image" src={logo}></img>
+                    <img className="logo_image" alt="JU Logo" src={logo}></img>
                         PIE 
                     </Link>
                     <div className="menu-icon"  onClick={handleClick}>
