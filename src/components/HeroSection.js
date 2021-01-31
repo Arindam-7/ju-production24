@@ -7,11 +7,11 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h3 className="neon">Production & Industrial Engineering</h3>
-      <p className="animation">Batch of '24</p>
+      <h2 className="animation">Batch of '24</h2>
       <p class="jadUni">Jadavpur University</p>
       <Link to="cardsID" spy={true} smooth={true}>
-        <button className="bookBtn">
-            Books
+        <button class="bookBtn button--nina button--text-thick button--text-upper button--size-s" data-text="BOOKS">
+              <span>B</span><span>O</span><span>O</span><span>K</span><span>S</span>
         </button>
       </Link>
     </div>
