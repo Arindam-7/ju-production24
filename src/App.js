@@ -19,9 +19,8 @@ function App() {
         
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
-        <Home />
         <Switch>
-          <Route path={process.env.PUBLIC_URL+'/'}  exact component={Home}/>
+          <Route path="/"  exact component={Home}/>
           <Route path="/classes"  exact component={Classes}/>
           <Route path="/docs" exact component={Docs}/>
           <Route path="/classes/mathematics" exact component={Maths}/>
