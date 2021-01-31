@@ -19,6 +19,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
+          {Home}
           <Route path="/" exact component={Home}/>
           <Route path="/classes" exact component={Classes}/>
           <Route path="/docs" exact component={Docs}/>
