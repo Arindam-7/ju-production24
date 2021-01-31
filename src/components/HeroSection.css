@@ -171,7 +171,8 @@
 	min-width: 125px;
 	max-width: 250px;
 	display: block;
-	margin: 1em;
+  margin: 1em;
+  font-weight: 800;
 	padding: 0.5em 1em;
   border: none;
   border-radius: 25px;
