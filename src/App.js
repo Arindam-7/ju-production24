@@ -16,9 +16,10 @@ import Arindam from './components/pages/Arindam';
 function App() {
   return (
     <>
-        <Navbar />
-        {Home}
+        
       <BrowserRouter>
+        <Navbar />
+        <Home />
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/classes" exact component={Classes}/>
