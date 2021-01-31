@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Docs from './components/pages/Docs';
 import Classes from './components/pages/Classes/Classes';
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
         
-      <BrowserRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Switch>
           <Route path="/"  exact component={Home}/>
@@ -30,7 +30,7 @@ function App() {
           <Route path="/classes/ed" exact component={ED}/>
           <Route path="/arindam" exact component={Arindam}/>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
