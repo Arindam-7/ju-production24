@@ -32,7 +32,8 @@
     margin: 0 1rem;
     margin-bottom: 25px;
     border-radius: 10px;
-    min-width: 300px; 
+    min-width: 300px;
+    max-width: 600px; 
   }
   
   .cards_item_link {
