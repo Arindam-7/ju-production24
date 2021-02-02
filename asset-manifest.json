@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/ju-production24/static/css/main.94e90b3a.chunk.css",
-    "main.js": "/ju-production24/static/js/main.f77dadc0.chunk.js",
-    "main.js.map": "/ju-production24/static/js/main.f77dadc0.chunk.js.map",
-    "runtime-main.js": "/ju-production24/static/js/runtime-main.fcbe6359.js",
-    "runtime-main.js.map": "/ju-production24/static/js/runtime-main.fcbe6359.js.map",
-    "static/js/2.e60c32e1.chunk.js": "/ju-production24/static/js/2.e60c32e1.chunk.js",
-    "static/js/2.e60c32e1.chunk.js.map": "/ju-production24/static/js/2.e60c32e1.chunk.js.map",
-    "static/js/3.96c16519.chunk.js": "/ju-production24/static/js/3.96c16519.chunk.js",
-    "static/js/3.96c16519.chunk.js.map": "/ju-production24/static/js/3.96c16519.chunk.js.map",
+    "main.css": "/ju-production24/static/css/main.648e24ba.chunk.css",
+    "main.js": "/ju-production24/static/js/main.54b0cc0c.chunk.js",
+    "main.js.map": "/ju-production24/static/js/main.54b0cc0c.chunk.js.map",
+    "runtime-main.js": "/ju-production24/static/js/runtime-main.322da1c0.js",
+    "runtime-main.js.map": "/ju-production24/static/js/runtime-main.322da1c0.js.map",
+    "static/js/2.da2fd221.chunk.js": "/ju-production24/static/js/2.da2fd221.chunk.js",
+    "static/js/2.da2fd221.chunk.js.map": "/ju-production24/static/js/2.da2fd221.chunk.js.map",
+    "static/js/3.7a558abd.chunk.js": "/ju-production24/static/js/3.7a558abd.chunk.js",
+    "static/js/3.7a558abd.chunk.js.map": "/ju-production24/static/js/3.7a558abd.chunk.js.map",
     "index.html": "/ju-production24/index.html",
-    "static/css/main.94e90b3a.chunk.css.map": "/ju-production24/static/css/main.94e90b3a.chunk.css.map",
-    "static/js/2.e60c32e1.chunk.js.LICENSE.txt": "/ju-production24/static/js/2.e60c32e1.chunk.js.LICENSE.txt",
+    "static/css/main.648e24ba.chunk.css.map": "/ju-production24/static/css/main.648e24ba.chunk.css.map",
+    "static/js/2.da2fd221.chunk.js.LICENSE.txt": "/ju-production24/static/js/2.da2fd221.chunk.js.LICENSE.txt",
     "static/media/App.css": "/ju-production24/static/media/pic.3a8163c9.jpg",
-    "static/media/coder.5a4cf95a.jpg": "/ju-production24/static/media/coder.5a4cf95a.jpg",
+    "static/media/coder-resized.cbec1d0d.jpg": "/ju-production24/static/media/coder-resized.cbec1d0d.jpg",
     "static/media/ed.7344a208.jpg": "/ju-production24/static/media/ed.7344a208.jpg",
     "static/media/electrical.20a14e93.jpg": "/ju-production24/static/media/electrical.20a14e93.jpg",
     "static/media/electronics.0bec50ba.jpg": "/ju-production24/static/media/electronics.0bec50ba.jpg",
     "static/media/logo.2c44a798.webp": "/ju-production24/static/media/logo.2c44a798.webp",
     "static/media/maths.6f156939.jpg": "/ju-production24/static/media/maths.6f156939.jpg",
     "static/media/programming.8062ffc5.jpg": "/ju-production24/static/media/programming.8062ffc5.jpg",
-    "static/media/HeroSection.css": "/ju-production24/static/media/unibg2.19fee3a4.jpg"
+    "static/media/HeroSection.css": "/ju-production24/static/media/unibg2Resized.271e8b23.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fcbe6359.js",
-    "static/js/2.e60c32e1.chunk.js",
-    "static/css/main.94e90b3a.chunk.css",
-    "static/js/main.f77dadc0.chunk.js"
+    "static/js/runtime-main.322da1c0.js",
+    "static/js/2.da2fd221.chunk.js",
+    "static/css/main.648e24ba.chunk.css",
+    "static/js/main.54b0cc0c.chunk.js"
   ]
 }
