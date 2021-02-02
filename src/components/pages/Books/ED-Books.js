@@ -1,28 +1,20 @@
 import React from 'react'
 import '../../../Page-Styles/pageStyles.css'
 
-const ED = () => {
+const EDBooks = () => {
     return (
         <div className="wrapper">
             <h1 className="heading">Engineering Drawing</h1>
                 <li className="list-items">
                     <ul className="list-item">
-                        <a href="https://youtu.be/SPHHj2MO35k">A2 Class-2 Part-I</a>
-                        <br></br>
-                        <a href="https://youtu.be/uZQJo7ziCck">A2 Class-2 Part-II</a>
-                        <br></br>
-                        <a href="https://youtu.be/Pm0Q1ziLTtA">A2 Class-2 Part-III</a>
-                        <br></br>
-                        <a href="https://youtu.be/mRNySjGMDOI">A2 Class-2 Part-IV</a>
-                        <p className="details">GB Sir, 28th January 2021</p>
-                    </ul>
-                    <ul className="list-item">
-                        <a href="https://youtu.be/RSyV9rYdH28">A2 Class-3</a>
-                        <p className="details">GB Sir, 2nd February 2021</p>
+                        <a href="https://drive.google.com/file/d/12hKyydTQtsNYllkUOHnfbw0crxn9_QL3/view?usp=sharing">
+                            Engineering Drawing
+                        </a>
+                        <p className="details">N.D.Bhatt</p>
                     </ul>
                 </li>
         </div>
     );
 }
 
-export default ED
+export default EDBooks
