@@ -27,4 +27,3 @@ const ED = () => {
 
 export default ED
 
-//https://youtu.be/RSyV9rYdH28

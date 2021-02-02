@@ -13,7 +13,6 @@ const Img = styled.img`
 const P = styled.p`
     @import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');    
     font-size: 14px;
-    font-family: 'Dekko', cursive;
     text-align: center;
     font-size: 14.5px;
     padding-top: 10px;
