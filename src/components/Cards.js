@@ -17,27 +17,27 @@ function Cards() {
                         <CardItem 
                             src={maths}
                             text="Mathematics"
-                            path="/"
+                            path="/mathematics-books"
                         />
                         <CardItem 
                             src={electrical}
                             text="Basic Electrical Engineering"
-                            path="/"
+                            path="/electrical-books"
                         />
                         <CardItem 
                             src={electronics}
                             text="Basic Electronics"
-                            path="/"
+                            path="/electronics-books"
                         />
                         <CardItem 
                             src={programming}
                             text="Programming"
-                            path="/"
+                            path="/programming-books"
                         />
                         <CardItem 
                             src={ed}
                             text="Engineering Drawing"
-                            path="/"
+                            path="/ed-books"
                         />
                     </ul>
                 </div>

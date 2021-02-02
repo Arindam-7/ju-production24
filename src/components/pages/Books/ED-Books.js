@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/ED.css';
+import './styles/ED-Books.css';
 
 const ED = () => {
     return (
@@ -26,4 +26,3 @@ const ED = () => {
 }
 
 export default ED
-
