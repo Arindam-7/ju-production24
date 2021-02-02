@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/ED.css';
+import '../../../../Page-Styles/pageStyles.css';
 
 const ED = () => {
     return (
