@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ju-production24/static/css/main.5713b4f8.chunk.css",
-    "main.js": "/ju-production24/static/js/main.68be4940.chunk.js",
-    "main.js.map": "/ju-production24/static/js/main.68be4940.chunk.js.map",
+    "main.js": "/ju-production24/static/js/main.1b396be2.chunk.js",
+    "main.js.map": "/ju-production24/static/js/main.1b396be2.chunk.js.map",
     "runtime-main.js": "/ju-production24/static/js/runtime-main.322da1c0.js",
     "runtime-main.js.map": "/ju-production24/static/js/runtime-main.322da1c0.js.map",
     "static/js/2.da2fd221.chunk.js": "/ju-production24/static/js/2.da2fd221.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/ed.10f6d756.jpg": "/ju-production24/static/media/ed.10f6d756.jpg",
     "static/media/electrical.14de3bda.jpg": "/ju-production24/static/media/electrical.14de3bda.jpg",
     "static/media/electronics.768428fe.jpg": "/ju-production24/static/media/electronics.768428fe.jpg",
-    "static/media/logo.2c44a798.webp": "/ju-production24/static/media/logo.2c44a798.webp",
+    "static/media/logo-compressed.e4a8373d.jpg": "/ju-production24/static/media/logo-compressed.e4a8373d.jpg",
     "static/media/maths.25e1b067.jpg": "/ju-production24/static/media/maths.25e1b067.jpg",
     "static/media/programming.32948125.jpg": "/ju-production24/static/media/programming.32948125.jpg",
     "static/media/HeroSection.css": "/ju-production24/static/media/unibg2Resized.f31246bb.jpg"
@@ -26,6 +26,6 @@
     "static/js/runtime-main.322da1c0.js",
     "static/js/2.da2fd221.chunk.js",
     "static/css/main.5713b4f8.chunk.css",
-    "static/js/main.68be4940.chunk.js"
+    "static/js/main.1b396be2.chunk.js"
   ]
 }
